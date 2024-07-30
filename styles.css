@@ -1,0 +1,95 @@
+body {
+    font-family: 'Permanent Marker', cursive;
+    height: 100vh;
+    background: linear-gradient(to right, #485563, #29323c);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid white;
+    padding: 30px;
+    background-color: #fafafa;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: black; /* Ensures header text is black */
+}
+
+.new-task {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+input[type="text"], input[type="datetime-local"] {
+    color: #000;
+    border: none;
+    background-color: #fff;
+    max-width: 400px;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 5px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+button {
+    padding: 15px;
+    font-size: 18px;
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Permanent Marker', cursive;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: #fff;
+    color: black;
+    font-weight: bold;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+}
+
+.proverb {
+    font-style: italic;
+    color: #555;
+    font-size: 16px;
+}
+
+.delete-btn {
+    cursor: pointer;
+    color: red;
+    background: none;
+    border: none;
+    font-size: 18px;
+    font-family: 'Permanent Marker', cursive;
+}
